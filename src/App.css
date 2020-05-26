@@ -1,0 +1,271 @@
+.App {
+  text-align: center;
+  position: fixed;
+  left: 8%;
+  right: 8%;
+  /*overflow: scroll;*/
+  /*border: 5px solid rgb(232, 247, 23);*/
+  flex: 3;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.jweets{
+  position: fixed;
+  right: 8%;
+  top: 35%;
+  /*border: 2px solid rgb(233, 236, 23);
+  border-radius: 5px;*/
+  padding: 20px;
+  height: 420px;
+  width: 400px;
+  overflow: auto;
+  background-color: cadetblue;
+}
+
+.addJweetInput
+{
+  padding: 5px;
+  /*border: 3px solid green;*/
+  position: relative;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.jweet {
+  border: 5px solid rgb(175, 8, 42);
+  border-radius: 5px;
+  background-color: darkgray;
+  height: 150px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button{
+  padding: 5px;
+  visibility: visibile;
+}
+
+.buttonr{
+  padding: 5px;
+  visibility: visibile;
+  position: absolute;
+  right: 0%;
+}
+
+.rlike_dislike {
+  position: relative;
+  bottom: 0px;
+  height: 35px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.right_container{
+  position: absolute;
+  right: 0%;
+}
+
+.left_container{
+  position: absolute;
+  left: 0%;
+}
+
+.center_container{
+  position: absolute;
+  left: 50%;
+}
+
+.tags{
+  position: absolute;
+  left: 1%;
+  bottom:0%
+}
+
+.tagTypes{
+  display: flex;
+  flex-direction: row;
+}
+
+.like_dislike {
+  position: relative;
+  bottom: 0px;
+  height: 35px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.instructions{
+  position: relative;
+  width: 100%;
+}
+
+.instruction{
+  position: relative;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.ingredients{
+  position: relative;
+  width: 50%;
+}
+
+.ingredient{
+  position: relative;
+  left: -0%;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.homePage{
+  position: fixed;
+  left: 8%;
+  top: 8.5%;
+  /*border: 2px solid rgb(236, 55, 23);
+  border-radius: 5px;*/
+  padding: 20px;
+  height: 100%;
+  width: 700px;/*55%;*/
+  overflow: auto;
+  /*background-color: rgb(221, 224, 30);*/
+}
+
+.mernStack{
+  position: relative;
+  left: 5%;
+  top: 8.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.tutorials{
+  position: relative;
+  width: 40%;
+  left: 30%;
+  top: 8.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#paddedItem {
+  padding: 20px;
+}
+
+#likes{
+  padding: 20px;
+  position: relative;
+  bottom: 40%;
+  height: 10px;
+}
+
+#dlikeButtons {
+  height: 30px;
+}
+#gunButton {
+  height: 30px;
+  opacity: 0;
+}
+
+#createJweet{
+  /*border: 2px solid rgb(233, 236, 23);
+  border-radius: 5px;*/
+  position: fixed;
+  right: 8%;
+  top: 9%;
+  padding: 20px;
+  height: 175px;
+  width: 400px;
+  background-color: cadetblue;
+}
+
+#addJweetInputTxt{
+  position: relative;
+  left: 5%;
+  width: 290px;
+}
+
+#sortType{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#sortTypeLabel{
+  padding-right: 15px;
+}
+
+.blogPage{
+  position: relative;
+  top: -4%;
+  padding: 20px;
+  overflow: auto;
+  background-color: cadetblue;
+}
+
+.BlogMessageBlock{
+  position: relative;
+  padding: 20px;
+  display:inline-block
+  /*display: flex;
+  flex-direction: row;*/
+}
+
+
+hr.message-inner-separator
+{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
